@@ -37,6 +37,7 @@ OpenCore 0.8.1 & macOS Monterey
 如果买来这个笔记本没有动过配件那可以直接使用.
 
 - 注意更改序列号三码!
+- 注意先解锁`CFG Lock`! 如果未解锁,请打开`Kernel - Quirks - AppleXcpmCfgLock`!
 - 注意笔记本内置硬盘为三星 PM981A, 需更换硬盘或外接移动硬盘.
 
 更换完硬盘之后直接使用 EFI 即可, BIOS 把那些该改的设置改一下.<br>比如 `Secure Boot` 什么的. 可以参考网上的教程.
